@@ -26,7 +26,7 @@ void my_function() {
 
 	printf("you entered: ");
 		for (i = 0; i < n; i++) {
-		printf("%d", arr[i]);
+		printf("%d ", arr[i]);
 	}
 	
 	free(arr);
