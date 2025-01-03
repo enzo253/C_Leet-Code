@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 void string_reverse() {
 	int i;
@@ -7,21 +8,23 @@ void string_reverse() {
 	char str[100];
 	char temp;
 
-	i = 0;
-	j = 0;
-
 	printf("choose your words wisely: ");
-	scanf("reversed word: ", str);
+	scanf("%99s", str);
 
-	for (i > str[i]; 1++) {
+	int len = strlen(str);
+	j = len - 1;
+
+	for (i = 0; i < j; i++, j--) {
 		temp = str[i];
 		str[i] = str[j];
 		str[j] = temp;
 	}
 
+	printf("reversed word: %s\n", str);
 }
 
 
 int main() {
-
+	string_reverse();
+	return 0;
 }
