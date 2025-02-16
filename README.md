@@ -1,6 +1,4 @@
 ---
-
-```md
 # C Programming Practice
 
 ## Overview
@@ -55,7 +53,5 @@ Feel free to fork the repository and submit pull requests with improvements or a
 
 ## License
 This project is open-source and available under the MIT License.
-```
-
 ---
 
